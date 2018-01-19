@@ -56,7 +56,6 @@ def Average(iterations):
 
         freq = np.mean(np.array(total), axis = 0)
 
-        print freq
         print np.around(freq)
 
 Average(10)
